@@ -1,0 +1,74 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: 3px solid rgb(209, 4, 4);
+}
+.navbar h1{
+    font-family: 'Kanit', sans-serif;
+}
+.navbar h1 i{
+    color: rgb(209, 4, 4);
+}
+
+#nav-menu-header .nav .nav-link.active{
+    background-color: rgb(209, 4, 4);
+    color: #fff;
+}
+
+#nav-menu-header .nav .nav-link{
+    color: black;
+}
+#nav-menu-header .nav .nav-link:hover{
+    border-bottom: 1px solid rgb(209, 4, 4);
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.link-noticias{
+    text-decoration: none;
+    color: black;
+}
+.link-noticias:hover,
+.card:hover{
+    color: rgb(209, 4, 4);
+}
+
+.card-text{
+    color: rgb(118, 118, 118);
+    font-size: 0.85em;
+}
+.card-text span{
+    margin-top: 5px;
+    font-size: 0.75rem;
+}
+
+.btn-red,
+.btn-red:hover{
+    color: rgb(118, 118, 118);
+}
+.btn-red.active{
+    background-color: rgb(209, 4, 4) !important; 
+    color: white !important;
+}
+
+.img-news-sm{
+    width: 15em;
+}
+.img-news-sm:hover{
+    border: 10px solid rgb(209, 4, 4);
+}
+
+.form-control:focus{
+    outline:2px solid rgb(209, 4, 4) !important;
+}
+
+@media screen and (min-width:1000px){
+    .carousel-item{
+        height: 35em;
+    }
+}
+
+
